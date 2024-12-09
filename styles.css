@@ -36,6 +36,7 @@ ul{
 }
 .nav_list a{
     text-decoration: none;
+    color:white;
 }
 .nav_list a:visited, .nav_list a:hover{
     color:white;
@@ -50,15 +51,10 @@ i{
     z-index: -1;
     width:100%;
     height:90%;
-    filter: opacity(30%);
-    
-}
-main{
-   
+    filter: opacity(30%); 
 }
 .heroDiv{
     padding-top:100px;
-    /* border: 1px solid red; */
     width:60%;
     margin:0 500px;
     line-height: 0.7;
@@ -114,9 +110,6 @@ main{
     text-align: center;
     padding-top: 0;
 }
-*{
-    /* border:1px solid red; */
-}
 .menuSection img{
     width:370px;
     height:370px;
@@ -158,7 +151,6 @@ main{
     line-height: 1.9;
 }
 .contactSection{
-    /* border:1px solid red; */
     width:80%;
     margin:0 auto;
 }
@@ -210,7 +202,6 @@ footer{
     display:flex;
     flex-direction:column;
     align-items: center;
-    /* justify-content: center; */
     width:300px;
     margin:0 auto;
 }
