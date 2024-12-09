@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Hachi+Maru+Pop&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Hachi+Maru+Pop&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Hachi+Maru+Pop&family=Parkinsans:wght@300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    margin:0;
+    font-family: "Poppins", serif;
+}
+header{
+    width:100%;
+    background-color: rgb(32, 30, 30);
+    position: fixed;
+    top:0;
+}
+nav{
+    width:90%;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+nav div{
+    color:white;
+}
+.nav_logo{
+    font-family: "Hachi Maru Pop", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.nav_list>ul{
+    display:flex;
+    gap:40px;
+}
+ul{
+    list-style: none;
+}
+.nav_list a{
+    text-decoration: none;
+}
+.nav_list a:visited, .nav_list a:hover{
+    color:white;
+}
+
+i{
+    color:white;
+    margin-right:8px;
+}
+.hungrySpoon_image{
+    position:absolute;
+    z-index: -1;
+    width:100%;
+    height:90%;
+    filter: opacity(30%);
+    
+}
+main{
+   
+}
+.heroDiv{
+    padding-top:100px;
+    /* border: 1px solid red; */
+    width:60%;
+    margin:0 500px;
+    line-height: 0.7;
+}
+.heroDiv h1{
+    font-size: 50px;
+    font-family: "Poppins", serif;
+    text-align: right;
+}
+.heroDiv p{
+    font-size: 30px;
+    font-style:italic;
+    font-weight:300;
+    text-align: right;
+}
+.heroDiv button{
+    margin:10px 0 0 570px;
+    color:white;
+    font-size:large;
+    width:250px;
+    height:50px;
+    background-color: black;
+    border:none;
+    border-radius:8px;
+}
+.menuSection{
+    margin-top:400px;
+}
+.menuSection>h1, #aboutus, #contact{
+    font-size:xx-large;
+    font-weight:500;
+    text-align: center;
+    margin-bottom:60px;
+}
+.menuItems{
+    display:flex;
+    justify-content: center;
+    gap:30px;
+}
+.menu_column{
+    width:370px;
+    height:620px;
+    border:0.01px solid rgb(78, 76, 76);
+    border-radius:9px;
+    overflow: hidden;
+    
+}
+.menu_column > div{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-top: 0;
+}
+*{
+    /* border:1px solid red; */
+}
+.menuSection img{
+    width:370px;
+    height:370px;
+}
+.menu_column h2{
+    margin:0;
+    height:70px;
+    font-weight:400;
+}
+.menu_column p{
+    font-size:14px;
+    height:84px;
+}
+.menu_column button{
+    background-color: rgb(26, 25, 25);
+    color:rgb(255, 255, 255);
+    width:300px;
+    height:40px;
+    border:none;
+    border-radius: 4px;
+    font-size:large
+}
+.aboutusSection{
+    margin-top: 70px;
+}
+.aboutusSection>div{
+    display:flex;
+    gap:60px;
+    margin:50px auto;
+    width:80%;
+}
+.aboutusSection img{
+    width:400px;
+    height:350px;
+    border-radius:5px;
+}
+.aboutusSection p{
+    font-size:20px;
+    line-height: 1.9;
+}
+.contactSection{
+    /* border:1px solid red; */
+    width:80%;
+    margin:0 auto;
+}
+form{
+    margin:0 auto;
+    width:60%;
+}
+
+.form_inputs div{
+    display:flex;
+    margin-bottom: 20px;
+}
+label{
+    font-size: large;
+    width:130px;
+}
+input, textarea{
+    width:100%;
+    padding:5px;
+    box-sizing: border-box;
+    border:1px solid black;
+    border-radius: 4px;
+}
+input{
+    height:40px;
+}
+form button{
+    width:200px;
+    height:40px;
+    background-color: black;
+    color:white;
+    border:none;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+.form_buttons{
+    margin:30px 0 50px 170px;
+}
+footer{
+    background-color: black;
+    color:white;
+}
+.footer-top{
+    display: flex;
+    padding-top:30px;
+    margin-top:150px;
+}
+.footer-top div{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    /* justify-content: center; */
+    width:300px;
+    margin:0 auto;
+}
+.footer-top li{
+    font-weight:200;
+}
+.footer-top h3{
+    font-weight: 400;
+}
+.footer_copyright{
+    background-color: rgb(235, 221, 221);
+    color:black;
+    text-align: center;
+}

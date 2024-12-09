@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/f01983e040.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav>
+            <div class="nav_logo"><h1>The Hungry Spoon</h1></div>
+            <div class="nav_list">
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-house"></i>Home</a></li>
+                    <li><a href="#menu"><i class="fa-solid fa-utensils"></i>Menu</a></li>
+                    <li><a href="#aboutus"><i class="fa-solid fa-user-group"></i>About Us</a></li>
+                    <li><a href="#contact"><i class="fa-solid fa-envelope"></i>Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="heroSection">
+            <img class="hungrySpoon_image" src="hungrySpoon1.jpg">
+            <div class="heroDiv">
+                <h1>Welcome to The Hungry Spoon</h1>
+                <p>Where Every Bite Tells a Story</p> 
+                <button>Discover Deliciousness</button>
+            </div>
+        </section>
+        <section  id="menu" class="menuSection">
+            <h1>Our Signature Dishes – Crafted to Perfection</h1>
+            <div class="menuItems">
+                <div class="menu_column">
+                    <img src="chicken.jpg">
+                    <div>
+                        <h2>Grilled Lemon Herb Chicken</h2>
+                        <p>Tender chicken breast marinated in fresh lemon, garlic, and herbs, then grilled to perfection.</p>
+                        <div><button>70 DH</button></div>
+                    </div>
+                    
+                </div>
+                <div class="menu_column">
+                    <img src="steak.jpg">
+                    <div>
+                        <h2>Simple Steak Salad</h2>
+                        <p>A flavorful salad with tender 8 oz ribeye or sirloin steak, shaved Parmesan, and a drizzle of melted butter or bone broth for extra richness.</p>
+                        <div><button>190 DH</button></div>
+                    </div>
+                    
+                </div>
+                <div class="menu_column">
+                    <img src="seafood.jpg">
+                    <div>
+                        <h2>Gourmet Japanese Seafood Delight</h2>
+                        <p>Perfectly cooked Japanese seafood, elegantly presented with melted butter, fresh herbs, and a luxurious touch for an unforgettable dining experience.</p>
+                        <div><button>90 DH</button></div> 
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <section class="aboutusSection">
+            <h2 id="aboutus">About Us</h2>
+            <div>
+                <div><img src="aboutus.jpg"></div>
+                <div>
+                    <p>At The Hungry Spoon, we’re passionate about delivering a dining experience that delights all your senses. Our focus is on quality ingredients, exceptional flavors, and a warm, inviting atmosphere. We strive to create memorable meals that bring people together, whether it’s a casual gathering or a special occasion. With every dish we prepare, we aim to make you feel at home and ensure you leave satisfied and eager to return.</p>
+                </div>
+            </div>
+        </section>
+        <section class="contactSection">
+            <h2 id="contact">Contact</h2>
+            <form action="" method="post">
+                <div class="form_inputs">
+                    <div>
+                        <label for="name">Name:</label>
+                        <input id="name" name="client_name" type="text" placeholder="ex: Full Name">
+                    </div>
+                    <div>
+                        <label for="mail">Email:</label>
+                        <input id="mail" name="client_mail" type="email" placeholder="ex: name@gmail.com">
+                    </div>
+                    <div>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" cols="50" placeholder="write your message"></textarea>
+                    </div>
+                </div>
+                <div class="form_buttons">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-top">
+            <div>
+                <h3>Locations</h3>
+                <ul>
+                    <li><i class="fa-solid fa-location-dot"></i><a>Casablanca, Sidi Maarouf</a></li>
+                    <li><i class="fa-solid fa-location-dot"></i><a>Rabat, Temara</a></li>
+                    <li><i class="fa-solid fa-location-dot"></i><a>Marrakech, Mhamid</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Our Social Media Accounts:</h3>
+                <ul>
+                    <li><i class="fa-brands fa-instagram"></i><a>Instagram_Account</a></li>
+                    <li><i class="fa-brands fa-twitter"></i><a>Twitter_Account</a></li>
+                    <li><i class="fa-brands fa-facebook"></i><a>Facebook_Account</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_copyright">Copyright &copy; 2024 The Hungry Spoon. All Rights Reserved </div>
+    </footer>
+</body>
+</html>
