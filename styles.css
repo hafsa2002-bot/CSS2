@@ -38,10 +38,6 @@ ul{
     text-decoration: none;
     color:white;
 }
-.nav_list a:visited, .nav_list a:hover{
-    color:white;
-}
-
 i{
     color:white;
     margin-right:8px;
